@@ -1,5 +1,7 @@
 ## Github 명령어
 - git init
+   - 실행된 폴더를 Git에 추가 (local repository를 추가 -> Shell 형태가 Git환경으로 변경됨)
+   - 폴더를 Git에서 제거하려면 (즉 init을 취소하려면) .git 폴더를 지우면 됨 (rm -r .git)
 - local repository 생성: git clone <주소>
 - local file을 remote repository로 등록
    - git add *
