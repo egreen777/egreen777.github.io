@@ -19,5 +19,6 @@
    - https://ahnslab.com/21-how-to-start-github-blog/
 
 ## Package 관리
-- Homebrew: Linux/MAC에서 사용하는 패키지 관리자 (npm, python등)
+- brew: Linux/MAC에서 사용하는 패키지 관리자 (npm, python등)
+- pip: Python 패키지 관리자
 - npm: 주로 Node.js 패키지를 관리
