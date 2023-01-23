@@ -20,5 +20,10 @@
 
 ## Package 관리
 - brew: Linux/MAC에서 사용하는 패키지 관리자 (npm, python등)
+   - [맥에서 homebrew사용 기본](https://iboxcomein.com/homebrew/)
+   - brew update: brew 자체를 최신으로 변경
+   - brew upgrade <프로그램명>: 프로그램을 업드레이드 (fomular, cask)
+   - brew search: 설치가능한 프로그램 검색
+   - 설치된 패키지: python, wget, vscode
 - pip: Python 패키지 관리자
 - npm: 주로 Node.js 패키지를 관리
