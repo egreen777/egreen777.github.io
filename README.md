@@ -2,8 +2,11 @@
 - local folder를 Git에서 사용할 수 있도록 초기화: git init
    - 실행된 폴더를 Git에 추가 (local repository를 추가 -> Shell 형태가 Git환경으로 변경됨)
    - 폴더를 Git에서 제거하려면 (즉 init을 취소하려면) .git 폴더를 지우면 됨 (rm -r .git)
+   - 그런데 그 폴더에 Git 저장소에 들어가면 안되는 파일이 있다면 (e.g. password) 그 파일들은 .gitignore에 넣으면 repository에서 빠짐 
 
-- remote repository를 local로 생성(복제): git clone <주소>
+- remote repository를 local로 생성(복제): git clone <Remote repository 주소>
+  - remote repository가 local로 복제되면서 local repository와 연결 됨
+  - 복제는 필요없고 remote repository와 연결만 필요할때: git remote add origin <Remote repository 주소>
 
 - local file을 remote repository로 등록하는 순서
    - git add * (git add . 도 동일)
