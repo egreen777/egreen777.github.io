@@ -17,6 +17,10 @@
 - remote repository 가져오기(통합)
   - git fetch: remote repository의 내용을 local로 가져오나 merge하지 않음
   - git pull: fetch + merge (overwrite가 아니라 merge)
+ 
+- remote repository 변경
+  - git remote remove origin
+  - 이후 git remote add origin <Remote repository 주소> 명령으로 새로운 remote reposity와 연결하면 됨
 
 - staging 
   - git add 명령어는 수정내역을 staging영역으로 옮기는 것임 (https://www.daleseo.com/git-add)
